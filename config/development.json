@@ -1,0 +1,16 @@
+{
+  "CLIENT": "http://localhost:4200"
+, "HOST": "http://localhost:3000"
+, "HTTP": {
+    "AUTHENTICATE": "ftbl/ftbl"
+  , "SECURE": false
+  }
+, "FACEBOOK": {
+    "ID": "1529163780747732"
+  , "SCOPE": "email,user_likes"
+  }
+, "TWITTER": {
+    "ID": "XHacDOM0P1j1alg0fNy4yIBYj"
+  , "SECRET": "FiWmbJZ4i943y17zDtdNLLFjSbH9pVtHhhHGo7kTELcyznlU2N"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "HOST": "http://testing.api.projectftbl.com"
+
+, "HTTP": {
+    "AUTHENTICATE": "ftbl/ftbl"
+  , "SECURE": false
+  }
+
+, "FACEBOOK": {
+    "id": "892662254186858"
+  }
+
+, "TWITTER": {
+    "ID": "4oE4QjJSMnScsC5qmStGBy45a"
+  , "SECRET": "ExM2bmJDf6hbo88AjLEtbrgYkjBsds9kzuw5bf0lV5mCH6HVpz"
+  }
+
+}
