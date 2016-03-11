@@ -10,7 +10,8 @@ var development = 'development'
   , devFlag = new webpack.webpack.DefinePlugin({ __DEV__: env === development });
 
 var webPackConfig = {
-  module: {
+  entry: [ 'babel-polyfill', './lib/app.js' ]
+, module: {
     loaders: [
       { 
         test: /\.(js|jsx)$/

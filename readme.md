@@ -6,8 +6,15 @@
 npm install
 ```
 
-### Running
+### Build and run
 
 ```
 gulp
 ```
+
+### Running in production
+
+```
+npm start
+```
+
