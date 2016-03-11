@@ -51,7 +51,6 @@
     "gulp-watch": "^4.3.4",
     "history": "^1.13.1",
     "hoist-non-react-statics": "^1.0.5",
-    "ickle": "^1.6.2",
     "jsdom": "^6.0.1",
     "json-loader": "^0.5.2",
     "keymirror": "^0.1.1",
