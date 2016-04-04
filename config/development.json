@@ -13,4 +13,8 @@
     "ID": "XHacDOM0P1j1alg0fNy4yIBYj"
   , "SECRET": "FiWmbJZ4i943y17zDtdNLLFjSbH9pVtHhhHGo7kTELcyznlU2N"
   }
+, "GOOGLE": {
+    "ID": "545251781231-be4al5qk3u2b4172jfpf3f5441allmep.apps.googleusercontent.com"
+  , "SECRET": "j9Fx3tMzJn0wRL3m09dCHCBH"
+  }  
 }
