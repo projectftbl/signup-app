@@ -24,12 +24,20 @@ var webPackConfig = {
         }
       }
     , { 
+        test: /\.css$/
+      , loader: 'css' 
+      }
+    , { 
         test: /\.json$/
       , loader: 'json' 
       }
     , { 
         test: /\.(png|jpg)$/
       , loader: 'url' 
+      }
+    , { 
+        test: /\.md$/
+      , loader: 'raw' 
       }
     ]
   , resolve: {
