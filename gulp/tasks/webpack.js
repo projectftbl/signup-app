@@ -46,7 +46,11 @@ var webPackConfig = {
   }
   , devtool: '#eval-source-map'
   , debug: env === development
-  , plugins: [ devFlag ]
+  , plugins: [ 
+      devFlag 
+    // , new webpack.webpack.optimize.OccurenceOrderPlugin()
+    // , new webpack.webpack.HotModuleReplacementPlugin()
+    ]
 };
 
 var build = function(file, watch) {

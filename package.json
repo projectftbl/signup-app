@@ -16,12 +16,13 @@
   "license": "MIT",
   "dependencies": {
     "@ftbl/client": "^1.1.1",
-    "@ftbl/form": "^1.0.7"
+    "redux-form": "^3.0.12"
   },
   "devDependencies": {
+    "@ftbl/form": "^1.1.9",
     "@ftbl/gulp": "^1.0.0",
-    "@ftbl/icons": "^1.0.0",
-    "@ftbl/form": "^1.0.1",
+    "@ftbl/icons": "^1.0.1",
+    "@ftbl/resource": "^1.0.0",
     "axios": "^0.5.4",
     "babel-cli": "6.4.5",
     "babel-core": "6.4.5",
@@ -80,7 +81,7 @@
     "react-virtualized": "^6.0.6",
     "redux": "3.3.1",
     "redux-devtools": "^2.1.2",
-    "redux-form": "^3.0.12",
+    "redux-form": "^4.2.2",
     "redux-logger": "^2.0.4",
     "redux-promise-middleware": "^0.2.1",
     "redux-saga": "^0.9.3",
