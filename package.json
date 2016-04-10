@@ -19,7 +19,7 @@
     "redux-form": "^3.0.12"
   },
   "devDependencies": {
-    "@ftbl/form": "^1.1.9",
+    "@ftbl/form": "^1.2.11",
     "@ftbl/gulp": "^1.0.0",
     "@ftbl/icons": "^1.0.1",
     "@ftbl/resource": "^1.0.0",
