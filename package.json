@@ -23,6 +23,7 @@
     "@ftbl/gulp": "^1.0.0",
     "@ftbl/icons": "^1.0.1",
     "@ftbl/resource": "^1.0.0",
+    "@ftbl/validation": "0.0.1",
     "axios": "^0.5.4",
     "babel-cli": "6.4.5",
     "babel-core": "6.4.5",
@@ -91,7 +92,6 @@
     "run-sequence": "^1.1.2",
     "sinon": "^1.16.1",
     "url-loader": "^0.5.6",
-    "vehicular": "^1.0.3",
     "webpack-stream": "^2.1.0"
   }
 }
