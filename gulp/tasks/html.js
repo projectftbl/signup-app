@@ -13,11 +13,15 @@ var html = function(env) {
   };
 
   var processConfig = function(file) {
-    var config = file.contents.toString('utf8');
+    var config = JSON.parse(file.contents.toString('utf8'));
 
     // Remove secrets
+    delete config.FACEBOOK.SECRET;
+    delete config.TWITTER.SECRET;
+    delete config.GOOGLE.SECRET;
+    delete config.HTTP.AUTHENTICATE;
 
-    return config;
+    return JSON.stringify(config);
   };
 
   return gulp.src(config.sourceDirectory + 'index.html')
