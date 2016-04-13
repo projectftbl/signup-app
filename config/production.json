@@ -1,6 +1,6 @@
 {
-  "CLIENT": "http://member.projectftbl.com"
-, "HOST": "http://api.projectftbl.com"
+  "CLIENT": "http://signup.liveforfootball.com"
+, "HOST": "http://api.liveforfootball.com"
 , "HTTP": {
     "AUTHENTICATE": "ftbl/ftbl"
   , "SECURE": false
