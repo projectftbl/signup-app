@@ -1,9 +1,9 @@
 {
-  "CLIENT": "http://signup.liveforfootball.com"
-, "HOST": "http://api.liveforfootball.com"
+  "CLIENT": "https://signup.liveforfootball.com"
+, "HOST": "https://api.liveforfootball.com"
 , "HTTP": {
     "AUTHENTICATE": "ftbl/ftbl"
-  , "SECURE": false
+  , "SECURE": true
   }
 , "FACEBOOK": {
     "ID": "1080273218682225"
