@@ -1,5 +1,5 @@
 {
-  "CLIENT": "https://signup.liveforfootball.com"
+  "CLIENT": "http://signup.liveforfootball.com"
 , "HOST": "https://api.liveforfootball.com"
 , "HTTP": {
     "AUTHENTICATE": "ftbl/ftbl"
