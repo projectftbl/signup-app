@@ -44,11 +44,11 @@ var webPackConfig = {
       extensions: [ '', '.js', '.json' ] 
     }
   }
-  , devtool: env === development ? '#eval-source-map' : null
+  , devtool: env === development ? '#eval-source-map' : '#eval-source-map'
   , debug: env === development
   , plugins: [ 
       devFlag
-    , new webpack.webpack.DefinePlugin({ 'process.env.NODE_ENV': '"' + env + '"' })
+    // , new webpack.webpack.DefinePlugin({ 'process.env.NODE_ENV': '"' + env + '"' })
     // , new webpack.webpack.optimize.OccurenceOrderPlugin()
     // , new webpack.webpack.HotModuleReplacementPlugin()
     ]
