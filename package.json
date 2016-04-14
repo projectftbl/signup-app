@@ -23,7 +23,7 @@
     "@ftbl/authorize": "^1.1.1",
     "@ftbl/form": "^1.2.15",
     "@ftbl/gulp": "^1.0.0",
-    "@ftbl/icons": "^1.0.1",
+    "@ftbl/icons": "^1.1.2",
     "@ftbl/resource": "^1.0.0",
     "@ftbl/validation": "0.0.1",
     "axios": "^0.5.4",
