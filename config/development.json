@@ -7,7 +7,7 @@
   }
 , "FACEBOOK": {
     "ID": "1529163780747732"
-  , "SCOPE": "email,user_likes,user_friends"
+  , "SCOPE": "email,user_likes,user_friends,manage_pages"
   }
 , "TWITTER": {
     "ID": "XHacDOM0P1j1alg0fNy4yIBYj"
