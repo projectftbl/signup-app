@@ -6,8 +6,7 @@ var gulp = require('gulp')
   , config = require('../config');
 
 var development = 'development'
-  , env = process.env.NODE_ENV || development
-  , devFlag = new webpack.webpack.DefinePlugin({ __DEV__: env === development });
+  , env = process.env.NODE_ENV || development;
 
 var webPackConfig = {
   entry: [ 'babel-polyfill', './lib/app.js' ]
@@ -47,10 +46,8 @@ var webPackConfig = {
   , devtool: env === development ? '#eval-source-map' : null
   , debug: env === development
   , plugins: [ 
-      devFlag
+      new webpack.webpack.DefinePlugin({ __DEV__: env === development })
     , new webpack.webpack.DefinePlugin({ 'process.env.NODE_ENV': '"' + env + '"' })
-    // , new webpack.webpack.optimize.OccurenceOrderPlugin()
-    // , new webpack.webpack.HotModuleReplacementPlugin()
     ]
 };
 
