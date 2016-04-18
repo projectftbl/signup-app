@@ -17,4 +17,11 @@
     "ID": "1093341044047-gdmevr2jfn00ichto2rgdnv9b4fspt08.apps.googleusercontent.com"
   , "SECRET": "klpRRpXNkZemy3kRP36pYgjq"
   }  
+, "LOGGING": {
+    "TYPE": "papertrail"
+  }
+, "PAPERTRAIL": {
+    "HOST": "logs4.papertrailapp.com"
+  , "PORT": 50028
+  }
 }
