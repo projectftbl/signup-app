@@ -16,13 +16,13 @@
   "license": "MIT",
   "dependencies": {
     "@ftbl/client": "^1.1.9",
-    "@ftbl/form": "^1.2.18"
+    "@ftbl/form": "^1.2.20"
   },
   "devDependencies": {
     "@ftbl/authorize": "^1.1.5",
-    "@ftbl/form": "^1.2.17",
+    "@ftbl/form": "^1.2.30",
     "@ftbl/gulp": "^1.0.0",
-    "@ftbl/icons": "^1.2.0",
+    "@ftbl/icons": "^1.2.3",
     "@ftbl/resource": "^1.0.0",
     "@ftbl/validation": "0.0.1",
     "axios": "^0.5.4",
