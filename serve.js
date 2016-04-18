@@ -1,1 +1,1 @@
-module.exports = require('@ftbl/client'); //(process.cwd() + '/dist');
+module.exports = require('@ftbl/client')(__dirname + '/dist');
