@@ -10,5 +10,5 @@ gulp.task('watch', [ 'webpack:watch', 'files:watch', 'html:watch' ]);
 gulp.task('default', [ 'serve', 'watch' ]);
 
 gulp.task('dist', function() {
-  return sequence('webpack', 'files', 'html');
+  sequence('webpack', 'files', 'html');
 });
