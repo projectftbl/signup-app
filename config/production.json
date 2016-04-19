@@ -19,6 +19,7 @@
   }  
 , "LOGGING": {
     "TYPE": "papertrail"
+  , "FORMAT": "tiny"
   }
 , "PAPERTRAIL": {
     "HOST": "logs4.papertrailapp.com"
