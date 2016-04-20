@@ -47,7 +47,8 @@ var webPackConfig = {
   , debug: env === development
   , plugins: [ 
       new webpack.webpack.DefinePlugin({ __DEV__: env === development })
-    , new webpack.webpack.DefinePlugin({ 'process.env.NODE_ENV': '"' + env + '"' })
+    , new webpack.webpack.DefinePlugin({ 'process.env.NODE_ENV': JSON.stringify(env) })
+    , new webpack.webpack.optimize.UglifyJsPlugin({ compress: { warnings: false }})
     ]
 };
 
