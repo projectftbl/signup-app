@@ -4,7 +4,7 @@ PROJECT:FTBL (UK) PARTNERS LIMITED (we) are committed to protecting and respecti
 
 ### Scope of policy
 
-This policy (together with our Social Media License Agreement as set out in the [SMLA](https://signup.liveforfootball.com/p/license) and any additional terms of use incorporated by reference into the SMLA, together our Terms of Use) applies to your use of:
+This policy (together with our Social Media Agreement as set out in the [SMA](https://signup.liveforfootball.com/license/license.pdf) and any additional terms of use incorporated by reference into the SMLA, together our Terms of Use) applies to your use of:
 
 * Liveforfootball mobile application software (App) available from our website and app stores (App Sites) once you have downloaded or streamed a copy of the App onto your mobile telephone or handheld device or desktop (Device).
 
