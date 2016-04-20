@@ -1,6 +1,13 @@
 var gulp = require('gulp')
-  , serve = require('@ftbl/client');
+  , path = require('path')
+  , server = require('@ftbl/client');
 
 gulp.task('serve', function(next) {
-  serve(__dirname + '/../../dist', next);
+  var app = server(path.join(__dirname, '..', '..', 'dist'))
+    , port = process.env.PORT || 4200;
+
+  app.listen(port, function() {
+    console.log('%d listening on port %d', process.pid, port);
+    next();
+  });
 });
