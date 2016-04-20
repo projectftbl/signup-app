@@ -40,7 +40,6 @@ ul {
 
 ol {
   list-style-type: none;
-  list-style-type: decimal;
    
   margin: 0;
   margin-left: 1.5em;
@@ -67,6 +66,24 @@ ol > li:before {
   text-align: left;
   color: #666;
 
+  content: counter(li-counter);
+  counter-increment: li-counter;
+}
+
+ol ol {
+  margin-left: 3em;
+  counter-reset: li-counter;  
+}
+
+ol ol > li {
+  border-left: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  min-height: 0;
+}
+
+ol ol > li:before {
+  left: -3em;
   content: counter(li-counter);
   counter-increment: li-counter;
 }
