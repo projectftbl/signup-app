@@ -1,3 +1,2 @@
-### Social Media License Agreement
+## Social Media License Agreement
 
-TBD
