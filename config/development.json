@@ -16,6 +16,7 @@
 , "GOOGLE": {
     "ID": "545251781231-be4al5qk3u2b4172jfpf3f5441allmep.apps.googleusercontent.com"
   , "SECRET": "j9Fx3tMzJn0wRL3m09dCHCBH"
+  , "SCOPE": [ "https://www.googleapis.com/auth/youtube.readonly" ]
   }
 , "LICENSE": "1"
 }

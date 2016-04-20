@@ -16,6 +16,7 @@
 , "GOOGLE": {
     "ID": "1093341044047-gdmevr2jfn00ichto2rgdnv9b4fspt08.apps.googleusercontent.com"
   , "SECRET": "klpRRpXNkZemy3kRP36pYgjq"
+  , "SCOPE": [ "https://www.googleapis.com/auth/youtube.readonly" ]
   }  
 , "LOGGING": {
     "TYPE": "papertrail"
