@@ -18,5 +18,5 @@
   , "SECRET": "j9Fx3tMzJn0wRL3m09dCHCBH"
   , "SCOPE": [ "https://www.googleapis.com/auth/youtube.readonly" ]
   }
-, "LICENSE": "1.0.1"
+, "LICENSE": "1.01"
 }
