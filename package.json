@@ -22,7 +22,7 @@
     "@ftbl/form": "^1.2.39",
     "@ftbl/gulp": "^1.0.0",
     "@ftbl/icons": "^1.2.6",
-    "@ftbl/resource": "^1.0.2",
+    "@ftbl/resource": "^1.0.3",
     "@ftbl/validation": "0.0.1",
     "axios": "^0.5.4",
     "babel-cli": "6.4.5",
