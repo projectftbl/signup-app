@@ -18,7 +18,7 @@
     "@ftbl/client": "^1.2.0"
   },
   "devDependencies": {
-    "@ftbl/authorize": "^1.1.5",
+    "@ftbl/authorize": "^1.2.0",
     "@ftbl/form": "^1.2.39",
     "@ftbl/gulp": "^1.0.0",
     "@ftbl/icons": "^1.2.6",
