@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@ftbl/authorize": "^1.3.0",
-    "@ftbl/form": "^1.4.4",
+    "@ftbl/form": "^1.4.8",
     "@ftbl/gulp": "^1.0.0",
     "@ftbl/icons": "^1.2.6",
     "@ftbl/resource": "^1.0.4",

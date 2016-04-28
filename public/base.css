@@ -87,3 +87,9 @@ ol ol > li:before {
   content: counter(li-counter);
   counter-increment: li-counter;
 }
+
+.clear:after {
+  clear: both;
+  content: "";
+  display: block;
+}
