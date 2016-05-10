@@ -15,7 +15,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@ftbl/client": "^1.2.0"
+    "@ftbl/client": "^1.2.0",
+    "@ftbl/support": "^1.0.1"
   },
   "devDependencies": {
     "@ftbl/authorize": "^1.3.0",
@@ -23,6 +24,7 @@
     "@ftbl/gulp": "^1.0.0",
     "@ftbl/icons": "^1.2.6",
     "@ftbl/resource": "^1.0.3",
+    "@ftbl/support": "^1.0.0",
     "@ftbl/validation": "^1.0.0",
     "axios": "^0.5.4",
     "babel-cli": "6.4.5",
