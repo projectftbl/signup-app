@@ -22,6 +22,7 @@
     "@ftbl/component": "^1.1.2",
     "@ftbl/contact-web": "^1.0.0",
     "@ftbl/entities": "^1.0.0",
+    "@ftbl/faq-web": "^1.0.2",
     "@ftbl/form": "^1.4.8",
     "@ftbl/gulp": "^1.0.0",
     "@ftbl/icons": "^1.2.6",
