@@ -1,14 +1,25 @@
 var gulp = require('gulp')
-  , requireDir = require('require-dir')
   , sequence = require('run-sequence');
 
-require('@ftbl/gulp')(gulp, { test: { coverage: 0 }});
+var config = {
+  sourceDirectory: './lib'
+, distDirectory: './dist'
+, publicDirectory: './public/**'
+, distFile: 'app.js'
+};
 
-requireDir('./gulp/tasks', { recurse: true });
+var options = { 
+  files: config
+, html: config
+, serve: config
+, webpack: config
+, test: { coverage: 0 }
+};
 
-gulp.task('watch', [ 'webpack:watch', 'files:watch', 'html:watch' ]);
-gulp.task('default', [ 'serve', 'watch' ]);
+require('@ftbl/gulp')(gulp, options);
 
 gulp.task('dist', function() {
   sequence('webpack', 'files', 'html');
 });
+
+gulp.task('default', [ 'serve', 'watch' ]);
