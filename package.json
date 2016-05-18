@@ -15,12 +15,12 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@ftbl/client": "^1.2.0",
-    "redux-saga": "^0.9.5"
+    "@ftbl/client": "^1.2.0"
   },
   "devDependencies": {
     "@ftbl/authorize": "^1.3.0",
     "@ftbl/component": "^1.1.2",
+    "@ftbl/contact-web": "^1.0.0",
     "@ftbl/entities": "^1.0.0",
     "@ftbl/form": "^1.4.8",
     "@ftbl/gulp": "^1.0.0",
@@ -95,7 +95,7 @@
     "redux-logger": "^2.0.4",
     "redux-promise-middleware": "^0.2.1",
     "redux-react-local": "^1.4.0",
-    "redux-saga": "^0.10.4",
+    "redux-saga": "^0.9.5",
     "redux-thunk": "1.0.3",
     "require-dir": "^0.3.0",
     "reselect": "^2.0.1",
