@@ -2,8 +2,8 @@ var gulp = require('gulp')
   , sequence = require('run-sequence');
 
 var config = {
-  sourceDirectory: './lib'
-, distDirectory: './dist'
+  sourceDirectory: './lib/'
+, distDirectory: './dist/'
 , publicDirectory: './public/**'
 , distFile: 'app.js'
 };
