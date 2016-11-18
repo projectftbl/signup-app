@@ -1,5 +1,5 @@
-var app = require('@ftbl/client')(__dirname + '/dist')
-  , log = require('@ftbl/log')
+var app = require('@recipher/client')(__dirname + '/dist')
+  , log = require('@recipher/log')
   , port = process.env.PORT || 4200;
 
 app.listen(port, function() {

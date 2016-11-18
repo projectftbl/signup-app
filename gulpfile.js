@@ -16,7 +16,7 @@ var options = {
 , test: { coverage: 0 }
 };
 
-require('@ftbl/gulp')(gulp, options);
+require('@recipher/gulp')(gulp, options);
 
 gulp.task('dist', function() {
   sequence('webpack', 'files', 'html');

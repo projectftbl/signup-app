@@ -3,7 +3,7 @@
 , "HOST": "http://localhost:3000"
 , "DEFAULT_PAGE": "/member/connect"
 , "HTTP": {
-    "AUTHENTICATE": "ftbl/ftbl"
+    "AUTHENTICATE": "system/system"
   , "SECURE": false
   }
 , "FACEBOOK": {
@@ -19,5 +19,4 @@
   , "SECRET": "j9Fx3tMzJn0wRL3m09dCHCBH"
   , "SCOPE": [ "https://www.googleapis.com/auth/youtube.readonly" ]
   }
-, "LICENSE": "1.02"
 }

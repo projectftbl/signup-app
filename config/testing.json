@@ -1,9 +1,9 @@
 {
-  "CLIENT": "http://testing.signup.liveforfootball.com"
-, "HOST": "http://testing.api.liveforfootball.com"
+  "CLIENT": "http://testing.signup.recipher.co.uk"
+, "HOST": "http://testing.api.recipher.co.uk"
 , "DEFAULT_PAGE": "/member/connect"
 , "HTTP": {
-    "AUTHENTICATE": "ftbl/ftbl"
+    "AUTHENTICATE": "system/system"
   , "SECURE": false
   }
 

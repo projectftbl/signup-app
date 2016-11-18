@@ -1,9 +1,9 @@
 {
-  "CLIENT": "https://signup.liveforfootball.com"
-, "HOST": "https://api.liveforfootball.com"
+  "CLIENT": "https://signup.recipher.co.uk"
+, "HOST": "https://api.recipher.co.uk"
 , "DEFAULT_PAGE": "/member/connect"
 , "HTTP": {
-    "AUTHENTICATE": "ftbl/ftbl"
+    "AUTHENTICATE": "system/system"
   , "SECURE": true
   }
 , "FACEBOOK": {
@@ -27,5 +27,4 @@
     "HOST": "logs4.papertrailapp.com"
   , "PORT": 50028
   }
-, "LICENSE": "1.02"
 }

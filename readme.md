@@ -1,4 +1,4 @@
-## @ftbl/signup-web
+## @recipher/signup-app
 
 ### Installation
 
