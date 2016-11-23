@@ -1,5 +1,5 @@
 {
-  "CLIENT": "http://testing.signup.recipher.co.uk"
+  "CLIENT": "http://testing.demo.recipher.co.uk"
 , "HOST": "http://testing.api.recipher.co.uk"
 , "DEFAULT_PAGE": "/member/connect"
 , "HTTP": {
